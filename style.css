@@ -1,0 +1,1126 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+}
+.sticky {
+  width: 55px;
+  height: 300px;
+  position: fixed;
+  right: 0%;
+  top: 300px;
+  z-index: 3;
+  background-color: red;
+}
+.sticky .insta {
+  height: 60px;
+  width: 55px;
+  border: 1px solid black;
+}
+.insta:first-child {
+  background-color: #194da8;
+}
+.insta:nth-child(2) {
+  background-color: #1da1f2;
+}
+.insta:nth-child(3) {
+  background-color: #c10097;
+}
+.insta:nth-child(4) {
+  background-color: #00d819;
+}
+.insta:nth-child(5) {
+  background-color: #004fce;
+}
+.insta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.insta i {
+  font-size: 25px;
+}
+
+.navbar {
+  height: 13vh;
+  width: 100%;
+  background-color: #00220d;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar .icon img {
+  height: 50px;
+}
+.navbar .right-head {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .right-head a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+.navbar .right-head :first-child {
+  color: #ffbb00;
+}
+
+.main {
+  height: 80vh;
+  width: 100%;
+  background-color: #00270e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main p {
+  color: #ffbb00;
+}
+.main h1 {
+  font-size: 90px;
+  color: white;
+  font-weight: 700;
+}
+
+.main h2 i {
+  font-size: 40px;
+}
+.main h2 a {
+  font-size: 45px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  bottom: 10px;
+}
+.main button {
+  height: 60px;
+  width: 25%;
+  border-radius: 30px;
+  background-color: #00b33b;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.main button i {
+  font-size: 30px;
+  color: white;
+}
+
+.websites {
+  height: 40vh;
+  width: 100%;
+  background-color: #00270e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.websites h4 {
+  height: 30px;
+  width: 100%;
+  color: #00b33b;
+}
+
+.websites h2 {
+  height: 80px;
+  width: 100%;
+  font-size: 50px;
+  color: #ffbb00;
+}
+
+.websites p {
+  height: 70px;
+  width: 100%;
+  color: white;
+}
+
+.card {
+  height: 75vh;
+  width: 100%;
+  background-color: #002a0f;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card .card1 {
+  height: 60vh;
+  width: 20%;
+  background-color: #004017;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+.card .card1 .img1 {
+  height: 300px;
+  width: 80%;
+}
+.card1 .img1 img {
+  height: 300px; /* code for hover*/
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid orange;
+  transition: transform 0.2s;
+}
+.card1 .img1 img:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+.card .card1 h2 {
+  color: #ffbb00;
+  position: relative;
+  top: 10px;
+}
+
+.card .card1 p {
+  color: white;
+  position: relative;
+  top: 10px;
+}
+
+.jdax {
+  height: 70vh;
+  width: 100%;
+  background-color: #002b10;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.jdax .box {
+  height: 460px;
+  width: 40%;
+  background-color: #004017;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+.jdax .box .img {
+  height: 350px;
+  width: 90%;
+  background-image: url(./images/pgs_portfolio_jdax.in_a.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+}
+
+.jdax .box .img2 {
+  height: 350px;
+  width: 90%;
+  background-image: url(./images/pgs_portfolio_dmi.international_a.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+  border: 1px solid orange;
+  transition: transform 0.2s;
+}
+.jdax.box .img2:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+.jdax .box h2 {
+  color: #ffbb00;
+}
+.jdax .box p {
+  color: white;
+}
+
+.load-more {
+  height: 200px;
+  width: 100%;
+  background-color: #002b10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.load-more button {
+  height: 70px;
+  width: 17%;
+  color: white;
+  background-color: rgb(0, 179, 59);
+  font-size: 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  border: none;
+}
+.load-more button:hover {
+  background-color: #ffbb00;
+  color: black;
+}
+
+.responsive {
+  height: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: #002d10;
+}
+.contain {
+  height: 200px;
+  width: 100%;
+  background-color: yellow;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0b300e;
+}
+.contain p {
+  color: #ffbb00;
+  position: relative;
+}
+.contain h1 {
+  color: #ffbb00;
+  font-size: 50px;
+}
+
+.main-box {
+  height: 450px;
+  width: 80%;
+  display: flex;
+}
+.main-box .boxes {
+  height: 500px;
+  width: 67%;
+  border: 1px solid #00b33b;
+  background-color: #042d10;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.boxes:first-child {
+  border-start-start-radius: 20px;
+  border-bottom-left-radius: 30px;
+}
+.boxes:nth-child(3) {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.boxes img {
+  font-size: 20px;
+  height: 20%;
+  width: 20%;
+}
+
+.boxes h1 {
+  color: #00b33b;
+  height: 60px;
+  position: relative;
+  top: 10px;
+}
+.boxes p {
+  color: white;
+  font-size: 20px;
+  line-height: 1.8;
+  height: 60px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.services {
+  height: 800px;
+  width: 100%;
+  background-color: #002910;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-section {
+  height: 400px;
+  width: 80%;
+  background-color: #002910;
+  display: flex;
+  justify-content: space-around;
+}
+.icon-section {
+  height: 200px;
+  width: 23%;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.icon-section .icon {
+  height: 90px;
+  width: 35%;
+  background-color: yellow;
+  border-radius: 20px;
+  position: absolute;
+  top: -30px;
+  left: 30px;
+}
+#h1 {
+  height: 200px;
+  width: 30%;
+  font-size: 50px;
+  color: #ffbb00;
+}
+.icon-section h1 {
+  color: white;
+  font-weight: 600;
+}
+.icon-section h3 {
+  color: white;
+  font-weight: 300;
+}
+.icon-section .icon i {
+  font-size: 50px;
+  position: relative;
+  top: 15px;
+}
+#icon1 {
+  background-color: #00b33b;
+}
+#icon2 {
+  background-color: #e10000;
+}
+#icon3 {
+  background-color: #ffbb00;
+}
+#icon4 {
+  background-color: #00b33b;
+}
+
+.icon-section:first-child {
+  background-color: #013e17;
+}
+.icon-section:nth-child(2) {
+  background-color: #451e0b;
+}
+.icon-section:nth-child(3) {
+  background-color: #37490d;
+}
+.icon-section:nth-child(4) {
+  background-color: #013e17;
+}
+.icon-section h1 {
+  padding-top: 100px;
+}
+.client {
+  height: 120px;
+  width: 100%;
+  background-color: #002910;
+  display: flex;
+  justify-content: center;
+}
+.client h1 {
+  color: #ffbb00;
+  font-size: 50px;
+}
+.global {
+  height: 80vh;
+  width: 100%;
+  background-color: #002910;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.penfila {
+  height: 400px;
+  width: 25%;
+  border: 1px solid red;
+  border-radius: 30px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.penfila p {
+  color: white;
+  font-size: 17px;
+  line-height: 1.8;
+  font-family: "Times New Roman", Times, serif;
+}
+.penfila:first-child {
+  background-color: #1f3b0e;
+  border: 1px solid yellow;
+}
+.penfila:nth-child(2) {
+  background-color: #1b240e;
+  border: 1px solid red;
+}
+.penfila:last-child {
+  background-color: #003814;
+  border: 1px solid green;
+}
+.penfila .writer {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 10px;
+}
+
+.penfila .writer .name {
+  height: 70px;
+  width: 50%;
+  position: relative;
+  top: 10px;
+}
+.writer img {
+  height: 75px;
+  width: 30%;
+}
+.writer .name h2 {
+  color: white;
+  font-size: 17px;
+  font-weight: 300;
+}
+.writer .name h3 {
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+}
+.writer #img3 {
+  height: 63px;
+  width: 24%;
+}
+.rating {
+  height: auto;
+  width: 100%;
+  background-color: #002910;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rating h1 {
+  height: 150px;
+  font-size: 30px;
+  width: 50%;
+  color: #ffbb00;
+  word-spacing: 20%;
+}
+.rating .websites {
+  height: auto;
+  width: 80%;
+  background-color: #002910;
+  display: flex;
+  flex-direction: row;
+}
+.websites .web {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+.web ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  line-height: 1.8;
+}
+.web ul li {
+  color: white;
+}
+.web ul li i {
+  margin: 5px;
+}
+.last-part {
+  height: auto;
+  width: 100%;
+  background-color: #00220d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.last-part h1 {
+  height: 50px;
+  color: #ffbb00;
+  letter-spacing: 10px;
+}
+.part1 {
+  height: 300px;
+  width: 80%;
+}
+.part1 span {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.part1 span img {
+  height: 60%;
+  width: 15%;
+  text-align: center;
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+  background-color: #00220d;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  color: #ffbb00;
+}
+
+@media (max-width: 768px) {
+  .sticky { 
+    top: 200px;
+  }
+  .navbar {
+    height: auto;
+    width: 100%;
+  }
+  .navbar .right-head a {
+    display: none;
+  }
+  .main h1 {
+    font-size: 45px;
+  }
+  .main h2 a {
+    font-size: 30px;
+  }
+  .main button {
+    width: 50%;
+  }
+
+  .websites {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0px;
+  }
+  .websites h4 {
+    height: 50px;
+    width: 30%;
+    position: relative;
+    top: 20px;
+  }
+
+  .websites h2 {
+    font-size: 27px;
+    height: 70px;
+    width: 80%;
+  }
+
+  .websites p {
+    height: 300px;
+    width: 60%;
+  }
+
+  .websites p br {
+    display: none;
+  }
+
+  .card {
+    height: 140vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+  }
+
+  .card .card1 {
+    width: 35%;
+    height: 380px;
+    text-align: center;
+  }
+
+  .card .card1 .img1 img {
+    height: 250px;
+    width: 90%;
+    position: relative;
+    top: 30px;
+  }
+  .card h2 {
+    height: 30px;
+    width: 100%;
+  }
+  .card p {
+    height: 50px;
+    width: 100%;
+  }
+
+  .jdax .box {
+    height: 300px;
+    width: 35%;
+    background-color: #004017;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 30px;
+  }
+  .jdax .box .img {
+    width: 90%;
+    height: 130px;
+    margin-bottom: 50px;
+    position: relative;
+    top: 30px;
+  }
+  .jdax .box .img2 {
+    height: 130px;
+    width: 90%;
+    position: relative;
+    top: 30px;
+    margin-bottom: 50px;
+  }
+  .jdax.box .img img {
+    height: 130px;
+    width: 90%;
+  }
+  .jdax h2 {
+    height: auto;
+    width: 80%;
+  }
+  .jdax p {
+    height: auto;
+    width: 80%;
+    font-size: 16px;
+  }
+
+  .load-more {
+    height: 150px;
+  }
+  .load-more button {
+    width: 35%;
+    height: 50px;
+    font-size: 25px;
+  }
+
+  .responsive {
+    height: 250vh;
+    width: 100%;
+  }
+  .contain {
+    height: 230px;
+    width: 100%;
+  }
+  .contain p {
+    color: #ffbb00;
+  }
+  .contain h1 {
+    color: #ffbb00;
+    font-size: 30px;
+  }
+  .main-box {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 20px;
+  }
+  .main-box .boxes {
+    height: 80%;
+    width: 90%;
+    border: 1px solid #00b33b;
+    background-color: #042d10;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .boxes img {
+    font-size: 20px;
+    height: 30%;
+    width: 20%;
+  }
+
+  .boxes h1 {
+    color: #00b33b;
+    height: 60px;
+    position: relative;
+    top: 10px;
+  }
+  .boxes p {
+    color: white;
+    font-size: 20px;
+    line-height: 1.8;
+    height: 60px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .boxes p br {
+    display: none;
+  }
+
+  .boxes:first-child {
+    border-start-start-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  .boxes:nth-child(3) {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+  .services #h1 {
+    font-size: 30px;
+    height: 80px;
+  }
+
+  .services {
+    height: auto;
+    width: 100%;
+  }
+  .logo-section {
+    height: 480px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .icon-section {
+    height: 200px;
+    width: 45%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  #h1 {
+    height: 200px;
+    width: 30%;
+    font-size: 50px;
+    color: #ffbb00;
+  }
+  .icon-section .icon i {
+    font-size: 50px;
+    position: relative;
+    top: 15px;
+  }
+  .icon-section h1 {
+    padding-top: 100px;
+  }
+
+  .client h1 {
+    font-size: 25px;
+    height: 30px;
+    padding-top: 10px;
+  }
+  .global {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .penfila {
+    width: 70%;
+    height: 290px;
+    justify-content: flex-start;
+    padding: 30px;
+  }
+
+  .penfila p {
+    line-height: 1.5;
+  }
+  .penfila p br {
+    display: none;
+  }
+  .writer {
+    width: 20%;
+    height: 80px;
+    position: relative;
+    right: 70px;
+  }
+
+  .rating {
+    width: 100%;
+    height: auto;
+    background-color: #002910;
+  }
+  .rating h1 {
+    width: 70%;
+    font-size: 25px;
+    position: relative;
+    top: 30px;
+  }
+
+  .rating h1 br {
+    display: none;
+  }
+  .rating .websites {
+    height: auto;
+    width: 100%;
+  }
+  .websites .web {
+    height: auto;
+    width: 40%;
+  }
+  .web ul {
+    list-style: none;
+    display: flex;
+  }
+}
+
+@media (max-width: 480px) {
+  .container .sticky {
+    display: none;
+  }
+
+  .main p {
+    font-size: 13px;
+  }
+  .main h1 {
+    height: 90px;
+    width: 80%;
+    font-size: 40px;
+    line-height: 1.2;
+    text-align: center;
+  }
+  .main h1 span {
+    height: 90px;
+    width: 100%;
+  }
+
+  .main h2 {
+    height: 60px;
+    align-items: center;
+    position: relative;
+    top: 20px;
+  }
+  .main h2 a {
+    font-size: 20px;
+  }
+  .main h2 i {
+    font-size: 30px;
+  }
+  .main button i {
+    height: 30px;
+    width: 10%;
+  }
+  .main button {
+    width: 80%;
+    height: 60px;
+  }
+
+  .websites {
+    height: auto;
+    width: 100%;
+    text-align: center;
+  }
+  .websites h2 {
+    height: 80px;
+    font-size: 25px;
+    width: 95%;
+    position: relative;
+    left: 20px;
+  }
+  .websites p {
+    height: 300px;
+    width: 80%;
+    position: relative;
+    left: 0dvb;
+  }
+
+  .card {
+    height: auto;
+    width: 100%;
+    align-items: center;
+  }
+
+  .card .card1 {
+    height: 550px;
+    width: 90%;
+    margin: 20px;
+  }
+  .card .card1 .img1 {
+    height: 700px;
+    width: 100%;
+  }
+  .card .card1 .img1 img {
+    height: 400px;
+    width: 87%;
+  }
+
+  .card .card1 h2 {
+    height: 40px;
+  }
+  .card .card1 p {
+    height: 100px;
+  }
+  .jdax {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .jdax .box {
+    height: 350px;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+  }
+  .jdax .box .img {
+    width: 90%;
+    height: 280px;
+
+    border: 1px solid red;
+  }
+  .jdax .box .img2 {
+    height: 280px;
+    width: 90%;
+  }
+
+  .jdax h2 {
+    height: 40px;
+    width: 80%;
+  }
+  .jdax p {
+    height: 50px;
+    width: 80%;
+    font-size: 16px;
+  }
+
+  .responsive {
+    height: 250vh;
+    width: 100%;
+  }
+  .contain {
+    height: 200px;
+    width: 100%;
+  }
+  .contain h1 {
+    color: #ffbb00;
+    font-size: 25px;
+  }
+  .main-box {
+    height: 80%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  .main-box .boxes {
+    height: 80%;
+    width: 100%;
+  }
+
+  .boxes img {
+    font-size: 20px;
+  }
+  .boxes p {
+    font-size: 17px;
+    line-height: 1.8;
+  }
+
+  .services #h1 {
+    font-size: 25px;
+    height: 100px;
+    width: 40%;
+  }
+
+  .services {
+    height: auto;
+    width: 100%;
+  }
+  .logo-section {
+    height: 140vh;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .icon-section {
+    height: 160px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .icon-section .icon i {
+    font-size: 50px;
+    position: relative;
+    top: 15px;
+  }
+  .icon-section h1 {
+    padding-top: 70px;
+  }
+
+  .icon-section h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    width: 40%;
+  }
+  .icon-section h3 {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    width: 40%;
+  }
+  .icon-section .icon {
+    height: 80px;
+    width: 23%;
+  }
+  .global {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .penfila {
+    width: 90%;
+    height: 300px;
+    justify-content: flex-start;
+    padding: 30px;
+  }
+  .rating {
+    display: none;
+  }
+  .writer {
+    width: 20%;
+    height: 80px;
+    position: relative;
+    right: 50px;
+  }
+  .last-part {
+    height: auto;
+    width: 100%;
+  }
+  .last-part .part1 {
+    height: auto;
+    width: 80%;
+  }
+  .last-part .part1 img {
+    height: 80px;
+    width: 20%;
+  }
+}
