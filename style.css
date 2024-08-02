@@ -1098,7 +1098,7 @@
   }
   .penfila {
     width: 90%;
-    height: 300px;
+    height: auto;
     justify-content: flex-start;
     padding: 30px;
   }
@@ -1107,7 +1107,7 @@
   }
   .writer {
     width: 20%;
-    height: 80px;
+    height: auto;
     position: relative;
     right: 50px;
   }
